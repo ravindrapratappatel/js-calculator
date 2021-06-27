@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h2>Basic Calculator</h2>
+    <div class="container">
+        <div class="main">
+            <div class="row1">
+                <div class="result">
+                    <p class="val" id="f_res"></p>
+                </div>
+            </div>
+            <div class="row2">
+                <button class="num" type="submit" onclick="a('1')">1</button>
+                <button class="num" type="submit" onclick="a('2')">2</button>
+                <button class="num" type="submit" onclick="a('3')">3</button>
+                <button class="num" type="submit" onclick="a('+')">+</button>
+
+            </div>
+            <div class="row3">
+                <button class="num" type="submit" onclick="a('4')">4</button>
+                <button class="num" type="submit" onclick="a('5')">5</button>
+                <button class="num" type="submit" onclick="a('6')">6</button>
+                <button class="num" type="submit" onclick="a('-')">-</button>
+            </div>
+            <div class="row4">
+                <button class="num" type="submit" onclick="a('7')">7</button>
+                <button class="num" type="submit" onclick="a('8')">8</button>
+                <button class="num" type="submit" onclick="a('9')">9</button>
+                <button class="num" type="submit" onclick="a('*')">*</button>
+            </div>
+            <div class="row5">
+                <button class="num" type="submit" onclick="a('.')">.</button>
+                <button class="num" type="submit" onclick="a('0')">0</button>
+                <button class="num" type="submit" onclick="b()">=</button>
+                <button class="num" type="submit" onclick="a('/')">/</button>
+            </div>
+            <div class="row5">
+                <button class="num1" type="submit" onclick="clr()">Clear</button>
+                <button class="num1" type="submit" onclick="a('can')">cancel</button>
+                 
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
